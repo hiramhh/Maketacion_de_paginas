@@ -45,8 +45,23 @@ nav .nav-right-section .menu-icon{
 }
 
 nav .nav-right-section img{
-    border-radius: 50px;
+    border-radius: 50%;
     margin-left: 10px;
-    width: 20%;
-    height: 20%;
+    width: 30px;
+    height: 30px;
+}
+
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img{
+    width: 300px;
 }
