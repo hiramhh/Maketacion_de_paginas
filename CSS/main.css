@@ -40,8 +40,8 @@ nav .nav-right-section .menu-icon{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 100%;
-    height: 100%;
+    width: 25px;
+    height: 25px;
 }
 
 nav .nav-right-section img{
@@ -109,5 +109,34 @@ main .main-input-container .micro-icon {
     background-position: center;
     background-size: contain;
     width: 18px;
-    height: 18px;   
+    height: 18px;
+    cursor: pointer;
+}
+
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    display: inline-block;
+    padding: 15px 0;
+}
+
+main .main-buttons button{
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 0;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+main .main-buttons button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+    background-color: #f8f8f8;
 }
